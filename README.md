@@ -17,3 +17,6 @@
 Example:
 ```shell
 $ kenv myproject /path/to/project
+```
+
+*Please check license for permissions on modifying: [LICENSE](LICENSE)*
