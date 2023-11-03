@@ -4,6 +4,10 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 
+#ifndef x86_64
+#define USE_NASM
+#endif
+
 #ifndef linux
 int main() {
   printf("[kenv] as for now kenv only supports linux, but will eventually be supported on all systems");
